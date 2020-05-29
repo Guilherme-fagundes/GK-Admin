@@ -1,0 +1,1 @@
+[![Total Downloads](https://poser.pugx.org/guilherme-fagundes/gk-admin/downloads)](https://github.com/Guilherme-fagundes/GK-Admin)
