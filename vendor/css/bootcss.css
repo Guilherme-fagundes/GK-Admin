@@ -67,8 +67,16 @@ body{
 .btn > i{
     margin-right: 5px;
 }
+.btn-rounded{
+    border-radius: 1em;
+
+}
+
 .btn-sm{
     padding: 8px 1.5em;
+}
+.btn-border-3{
+    border-radius: 3px;
 }
 .btn-block{
     display: block;
@@ -102,33 +110,11 @@ body{
     background-color: var(--dark);
     color: var(--white);
 }
-
-/*forms*/
-form{
+/*header-line*/
+.header-line{
+    padding: 1em 0;
     width: 100%;
     margin: 0 auto;
-}
-.control-input{
-    border: 1px solid var(--primary);
-    margin-bottom: 10px;
-}
-.control-input .boot-input{
-    padding: 10px 10px;
-    border: none;
-    width: 100%;
-
-}
-.control-input .boot-input:focus{
-    outline: 0;
-}
-.control-input .boot-select,
-.control-input .boot-select option{
-    padding: 10px 10px;
-    border: none;
-    width: 100%;
-}
-.control-input .boot-select:focus{
-    outline: 0;
 }
 
 /*Dashboard*/
@@ -179,6 +165,7 @@ form{
     color: #eee;
     display: block;
     font-size: .9em;
+    white-space: nowrap;
 }
 .left-siderbar .left-siderbar-content ul li a:hover{
     background-color: var(--indigo);
@@ -193,21 +180,33 @@ form{
     width: 95%;
     margin: 0 auto;
 }
+.main .main-content .item{
+    padding: 1em 10px;
+    background-color: var(--white);
+}
 
 
 /*responsive*/
 @media screen and (max-width: 916px) {
     .left-siderbar{
-        width: 75px;
+        width: 70px;
     }
-    .left-siderbar .left-siderbar-content ul li a .title{
+    .left-siderbar .left-siderbar-content ul li a{
+        margin: 0;
+        text-align: center;
+    }
+    .left-siderbar .left-siderbar-content ul li a span.title{
         display: none;
     }
-    .left-siderbar .left-siderbar-content ul li a .icon{
+    .left-siderbar .left-siderbar-content ul li a span.icon{
         text-align: center;
     }
     .header .header-content .header-title span{
         display: none;
+    }
+    .main{
+        width: calc(100% - 70px);
+        margin-left: 70px;
     }
 
 }
