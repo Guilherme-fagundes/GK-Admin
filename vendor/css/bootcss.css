@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 :root {
@@ -56,12 +57,20 @@ body{
 }
 
 /*buttons*/
+input[type=submit].btn,
+button.btn{
+    font-size: .9em;
+    padding: 12px 1em;
+
+}
 .btn{
     padding: 10px 1em;
     display: inline-block;
     cursor: pointer;
     border-radius: 3px;
     border: none;
+    position: relative;
+    text-decoration: none;
 
 }
 .btn > i{
@@ -82,9 +91,10 @@ body{
     display: block;
     text-align: center;
     margin-bottom: 10px;
+    width: 100%;
 }
 .btn-lg{
-    padding: 1em 0;
+    padding: 1em 1.2em;
 }
 .btn.btn-primary{
     background-color: var(--primary);
@@ -116,6 +126,26 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+/*Forms*/
+.dv-input{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.gk-input,
+.gk-select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    padding: 10px 10px;
+    font-size: .9em;
+}
+.gk-input:focus,
+.gk-select:focus{
+    outline: 0;
+}
+
+
+
 
 /*Dashboard*/
 /*header*/
@@ -124,6 +154,8 @@ body{
     width: 100%;
     margin: 0 auto;
     background-color: var(--blue);
+    position: fixed;
+    z-index: 99999999;
 }
 .header .header-content{
     width: 95%;
@@ -154,9 +186,10 @@ body{
     width: 15%;
     height: 100%;
     background-color: var(--blue);
+
 }
 .left-siderbar .left-siderbar-content{
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .left-siderbar .left-siderbar-content ul li a{
@@ -179,6 +212,9 @@ body{
 .main .main-content{
     width: 95%;
     margin: 0 auto;
+    top: 2em;
+    position: relative;
+    
 }
 .main .main-content .item{
     padding: 1em 10px;
