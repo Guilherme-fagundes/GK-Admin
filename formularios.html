@@ -3,31 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>GK Admin</title>
-    <script type="text/javascript" src="vendor/js/jquery"></script>
-    <link rel="stylesheet" href="vendor/css/bootcss.css"/>
-    <link rel="stylesheet" href="vendor/fontawesome/css/all.css"/>
-    <script type="text/javascript" src="vendor/js/scripts/scripts.js"></script>
+    <script type="text/javascript" src="boot/js/jquery"></script>
+    <link rel="stylesheet" href="boot/css/bootcss.css"/>
+    <link rel="stylesheet" href="boot/fontawesome/css/all.css"/>
+    <script type="text/javascript" src="boot/js/scripts/scripts.js"></script>
 </head>
 <body>
-<header class="header">
-    <div class="header-content">
-        <div class="header-title">
-            <h3 class="text-white font-weight-nornal">GK Admin</h3>
-            <span class="fas fa-bars text-white pointer"></span>
-        </div>
-        <div class="header-nav">
-            <a href="#" class="text-white text-decoration-none"><i class="fas fa-sign-out-alt"
-                                                                   style="margin-right: 5px;"></i>Sair</a>
-
-        </div>
-
-    </div>
-
-</header>
 <div class="left-siderbar">
+    <header class="left-siderbar-header">
+        <h4 class="text-white font-weight-normal">Gk Control</h4>
+        <img src="boot/img/image-empty.jpg" width="100" height="100">
+
+
+    </header>
     <div class="left-siderbar-content">
         <ul>
-            <li><a href="index.html">
+            <li><a href="#">
                 <span class="icon"><i class="fas fa-desktop"></i></span>
                 <span class="title">Dashboard</span>
             </a></li>
@@ -48,6 +39,16 @@
     </div>
 
 </div>
+<header class="header-top">
+    <div class="header-top-content">
+        <span class="fas fa-bars pointer text-white"></span>
+        <div class="nav-topbar">
+            <span class="icon"><a href="#" class="text-decoration-none text-white"><i class="fas fa-bell"></i><span id="countNotifiy">5</span></a></span>
+            <span><a href="#" class="text-decoration-none text-white"><i class="fas fa-sign-out-alt"></i>Sair</a></span>
+
+        </div>
+    </div>
+</header>
 
 <main class="main">
     <div class="main-content">
@@ -82,6 +83,21 @@
                 <h2>Formularios</h2>
 
             </div>
+            <form>
+                <article style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                    <div class="dv-input">
+                        <input name="" placeholder="Nome" class="gk-input">
+                    </div>
+                    <div class="dv-input">
+                        <input name="" placeholder="Sobrenome" class="gk-input">
+                    </div>
+                </article>
+                <div class="dv-input">
+                    <input class="gk-input" placeholder="E-mail"/>
+
+                </div>
+                <button class="btn btn-success btn-sm btn-border-3">Salvar</button>
+            </form>
 
         </div>
 

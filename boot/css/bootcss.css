@@ -43,7 +43,7 @@ body{
 .font-weight-bold{
     font-weight: bold;
 }
-.font-weight-nornal{
+.font-weight-normal{
     font-weight: normal;
 }
 .text-white{
@@ -67,12 +67,13 @@ button.btn{
     padding: 10px 1em;
     display: inline-block;
     cursor: pointer;
-    border-radius: 3px;
     border: none;
     position: relative;
     text-decoration: none;
+    margin: 5px 0;
 
 }
+a > i,
 .btn > i{
     margin-right: 5px;
 }
@@ -81,7 +82,7 @@ button.btn{
 
 }
 
-.btn-sm{
+.btn.btn-sm{
     padding: 8px 1.5em;
 }
 .btn-border-3{
@@ -129,57 +130,42 @@ button.btn{
 /*Forms*/
 .dv-input{
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
 }
 .gk-input,
 .gk-select{
     width: 100%;
     border: none;
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
     padding: 10px 10px;
     font-size: .9em;
 }
 .gk-input:focus,
 .gk-select:focus{
     outline: 0;
+    border-bottom: 1px solid var(--primary);
 }
+/*CARDS*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.cards .card{
 
 
+}
+.cards .card .card-icon{
+    border-radius: 100%;
+    line-height: 30px;
+    background-color: #ffc107;
+    padding: 10px 10px;
+    vertical-align: middle;
+
+}
 
 
 /*Dashboard*/
-/*header*/
-.header{
-    padding: .9em 0;
-    width: 100%;
-    margin: 0 auto;
-    background-color: var(--blue);
-    position: fixed;
-    z-index: 99999999;
-}
-.header .header-content{
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: calc(100% / 2);
-
-}
-.header .header-content .header-title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.header .header-content .header-title h3{
-    margin-right: 5em;
-}
-
-.header .header-content .header-nav a{
-    font-size: .9em;
-}
-
 /*left siderbar*/
 .left-siderbar{
     position: fixed;
@@ -188,8 +174,20 @@ button.btn{
     background-color: var(--blue);
 
 }
+.left-siderbar .left-siderbar-header{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 1em 0;
+}
+.left-siderbar .left-siderbar-header img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 1em;
+}
 .left-siderbar .left-siderbar-content{
-    margin-top: 3em;
 }
 
 .left-siderbar .left-siderbar-content ul li a{
@@ -199,10 +197,44 @@ button.btn{
     display: block;
     font-size: .9em;
     white-space: nowrap;
+    transition: .5s;
 }
 .left-siderbar .left-siderbar-content ul li a:hover{
     background-color: var(--indigo);
 }
+/*Header*/
+.header-top{
+    width: calc(100% - 15%);
+    margin: 0 auto;
+    background-color: var(--primary);
+    padding: 1em 0;
+    margin-left: 15%;
+}
+.header-top .header-top-content{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top .header-top-content .nav-topbar .icon{
+    cursor: pointer;
+
+}
+.header-top .header-top-content .nav-topbar span{
+    font-size: .9em;
+    margin: 0 5px;
+
+}
+.header-top .header-top-content .nav-topbar span#countNotifiy{
+    background-color: var(--orange);
+    border-radius: 10px;
+    padding: 1px 5px;
+    left: -13px;
+    top: -5px;
+    position: relative;
+}
+
 
 /*main*/
 .main{
@@ -212,20 +244,25 @@ button.btn{
 .main .main-content{
     width: 95%;
     margin: 0 auto;
-    top: 2em;
+    top: 1em;
     position: relative;
     
 }
 .main .main-content .item{
     padding: 1em 10px;
     background-color: var(--white);
-}
+    position: relative;
 
+}
 
 /*responsive*/
 @media screen and (max-width: 916px) {
+    .header-top{
+        width: calc(100% - 4.375em);
+        margin-left: 4.375em;
+    }
     .left-siderbar{
-        width: 70px;
+        width: 4.375em;
     }
     .left-siderbar .left-siderbar-content ul li a{
         margin: 0;
