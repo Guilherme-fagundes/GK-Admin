@@ -128,22 +128,59 @@ a > i,
     margin: 0 auto;
 }
 /*Forms*/
-.dv-input{
+.gk-input{
+    outline: none;
+    border: 1px solid #ced4da;
+    padding: 5px 5px;
+    margin-bottom: 16px;
+}
+.gk-input:focus{
+    outline: 1px solid var(--primary);
+    border: 0;
+}
+.gk-input.min-width{
+    width: 25%;
+}
+.gk-input.medium-width{
+    width: 50%;
+}
+.gk-input.large-width{
     width: 100%;
-    margin-bottom: 1.2em;
 }
-.gk-input,
-.gk-select{
-    width: 100%;
-    border: none;
-    background-color: #f1f1f1;
-    padding: 10px 10px;
-    font-size: .9em;
+input[type=checkbox]{
+    appearance: none;
+    width: 80px;
+    height: 18px;
+    background-color: #ddd;
+    outline: 0;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
 }
-.gk-input:focus,
-.gk-select:focus{
-    outline: 2px solid rgba(255,255,255,0.2);
+input[type=checkbox]:before{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 18px;
+    background-color: white;
+    transform: scale(1.1);
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
+input[type=checkbox]:checked{
+    background-color: #007bff;
+    transition: .5s;
+}
+input:checked[type=checkbox]:before{
+    background-color: #fff;
+    content: "";
+    left: 50px;
+    transition: .5s;
+}
+
+
 /*CARDS*/
 .cards{
     display: grid;
