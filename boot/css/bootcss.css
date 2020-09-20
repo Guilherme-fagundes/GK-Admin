@@ -64,7 +64,7 @@ button.btn{
 
 }
 .btn{
-    padding: 10px 1em;
+    padding: 10px 1.5em;
     display: inline-block;
     cursor: pointer;
     border: none;
@@ -270,7 +270,49 @@ input:checked[type=checkbox]:before{
     top: -5px;
     position: relative;
 }
+/*NOTIFICATION*/
+/*Notification box*/
 
+.notify-box{
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    position: absolute;
+    z-index: 2;
+    right: 6em;
+    top: 41px;
+    border-radius: 3px;
+    background-color: white;
+    overflow: auto;
+    display: none;
+}
+.notify-box.active{
+    display: block;
+}
+.notify-box .notify-box-content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.notify-box .notify-box-content .notify-item{
+    padding: 5px 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #333;
+}
+.notify-box .notify-box-content .notify-item:hover{
+    background-color: #f1f1f1;
+
+}
+.notify-box .notify-box-content .notify-item p.desc{
+    margin-bottom: 1em;
+    color: #333;
+}
+.notify-box .notify-box-content .notify-item #hour{
+    color: #333;
+    font-size: .8em;
+}
 
 /*main*/
 .main{
