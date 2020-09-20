@@ -4,7 +4,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
     
+}
+*::-webkit-scrollbar{
+    width: 7px;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: var(--dark);
+    border-radius: 3px;
+    scrollbar-color: var(--dark);
 }
 
 :root {
@@ -300,6 +309,7 @@ input:checked[type=checkbox]:before{
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     color: #333;
+    cursor: pointer;
 }
 .notify-box .notify-box-content .notify-item:hover{
     background-color: #f1f1f1;
@@ -308,6 +318,7 @@ input:checked[type=checkbox]:before{
 .notify-box .notify-box-content .notify-item p.desc{
     margin-bottom: 1em;
     color: #333;
+    font-size: .9em;
 }
 .notify-box .notify-box-content .notify-item #hour{
     color: #333;
