@@ -93,6 +93,9 @@ a > i,
 .btn.btn-sm{
     padding: 8px 1.5em;
 }
+.btn.btn-xsm{
+    padding: 5px 1.5em;
+}
 .btn-border-3{
     border-radius: 3px;
 }
@@ -136,6 +139,9 @@ a > i,
     margin: 0 auto;
 }
 /*Forms*/
+form label small{
+    width: 100%;
+}
 .gk-input{
     outline: none;
     border: 1px solid #ced4da;
@@ -195,18 +201,6 @@ a > i,
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-}
-.cards .card{
-
-
-}
-.cards .card .card-icon{
-    border-radius: 100%;
-    line-height: 30px;
-    background-color: #ffc107;
-    padding: 10px 10px;
-    vertical-align: middle;
-
 }
 
 
