@@ -195,6 +195,21 @@ form label small{
 
 }
 
+/*ALERTAS*/
+.gk-alert{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: .9em;
+    margin: 10px 0;
+}
+.gk-alert.success{
+    background-color: var(--success);
+    color: var(--white);
+}
+.gk-alert.danger{
+    background-color: var(--danger);
+    color: var(--white);
+}
 
 /*CARDS*/
 .cards{
