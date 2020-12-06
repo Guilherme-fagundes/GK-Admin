@@ -5,6 +5,23 @@
     font-family: "Segoe UI", sans-serif;
     list-style: none;
 }
+
+.font-weight-normal{
+    font-weight: normal;
+}
+/*buttons*/
+.btn{
+    padding: 8px 1em;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8em!important;
+}
+.btn.btn-success{
+    background-color: seagreen;
+    color: #eeeeee;
+}
 body{
     background-color: #eeeeee;
 }
@@ -23,13 +40,60 @@ body{
     font-size: .9em;
 }
 
-
 .dashLeftSiderbarContent ul li:hover{
     background-color: #59405c;
     position: relative;
 }
 .dashLeftSiderbarContent ul li > ul{
-    background-color: #322f3d;
+    background-color: #59405c;
+    display: none;
+    transition: all .8s ease-in-out;
+
+}
+.dashLeftSiderbarContent ul li:hover > ul{
+    display: block;
+    transition: all .8s ease-in-out;
 }
 
+/*DASH HEADER*/
+.dashHeader{
+    width: calc(100% - 15%);
+    margin-left: 15%;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    padding: 1em 1em;
+}
+.dashHeaderContent{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashHeaderContent h1{
+    font-size: 1.8em;
+    color: #322f3d;
+}
+.dashHeaderContent .dashHeaderNav ul{
+    display: flex;
 
+}
+.dashHeaderContent .dashHeaderNav ul li a{
+    margin: 0 .8em;
+    text-decoration: none;
+    color: #322f3d;
+}
+
+/*MAIN*/
+.main{
+    width: calc(100% - 15%);
+    margin-left: 15%;
+}
+.main .main-content{
+    width: 95%;
+    margin: 0 auto;
+}
+.main .main-content .item{
+    padding: 1em 0;
+    margin-top: 10px;
+}
