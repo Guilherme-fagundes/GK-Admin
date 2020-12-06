@@ -11,33 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43e6891-745f-4867-85d4-be44a5920a63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdn/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdn/thumb/logo-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/css/customMenuSiderbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/cdn/css/template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/images/ui-icons_444444_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/images/ui-icons_555555_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/images/ui-icons_777620_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/images/ui-icons_777777_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/jquery-ui.theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdn/jquery-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +82,7 @@
       <workItem from="1607051277464" duration="444000" />
       <workItem from="1607104617318" duration="19987000" />
       <workItem from="1607169776236" duration="709000" />
-      <workItem from="1607178903842" duration="20585000" />
+      <workItem from="1607178903842" duration="21006000" />
     </task>
     <servers />
   </component>
