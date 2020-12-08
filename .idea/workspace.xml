@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43e6891-745f-4867-85d4-be44a5920a63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdn/js/dash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/cdn/css/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -82,7 +86,9 @@
       <workItem from="1607051277464" duration="444000" />
       <workItem from="1607104617318" duration="19987000" />
       <workItem from="1607169776236" duration="709000" />
-      <workItem from="1607178903842" duration="21006000" />
+      <workItem from="1607178903842" duration="21609000" />
+      <workItem from="1607448632549" duration="3158000" />
+      <workItem from="1607459000795" duration="6596000" />
     </task>
     <servers />
   </component>
@@ -99,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607182734617">

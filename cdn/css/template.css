@@ -22,6 +22,31 @@
     background-color: seagreen;
     color: #eeeeee;
 }
+
+/*forms*/
+form,
+form .field,
+input[type=text],
+input[type=email]{
+    width: 100%;
+    margin: 0 auto;
+    outline: 0;
+    margin-bottom: 10px;
+}
+form article.fieldGroup{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+input[type=text],
+input[type=email]{
+    padding: 8px 10px;
+    font-size: .8em;
+}
+
+
+/*Template*/
 body{
     background-color: #eeeeee;
 }
@@ -47,13 +72,9 @@ body{
 .dashLeftSiderbarContent ul li > ul{
     background-color: #59405c;
     display: none;
-    transition: all .8s ease-in-out;
 
 }
-.dashLeftSiderbarContent ul li:hover > ul{
-    display: block;
-    transition: all .8s ease-in-out;
-}
+
 
 /*DASH HEADER*/
 .dashHeader{
