@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Dashboard</title>
-    <link href="https://file.myfontastic.com/dSUufXgzwazvsuPX3csuJH/icons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="cdn/icons/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="cdn/css/template.css">
     <script type="text/javascript" src="cdn/js/jquery.js"></script>
     <script type="text/javascript" src="cdn/js/dash.js"></script>
 
 </head>
 <body>
+<div class="mobileNavSess">
+    <div class="dashLeftSiderbar">
+        <div class="dashLeftSiderbarContent">
+
+            <ul>
+                <li><a href="index.html">
+                    <span class="icon icon-home"></span>
+                    <span class="title">Dashboard</span>
+
+                </a></li>
+                <li class="subMenu"><a href="#">
+                    <span class="icon icon-link"></span>
+                    <span class="title">Páginas +</span>
+
+                </a>
+                    <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="#">Registro</a></li>
+                    </ul>
+                </li>
+                <li><a href="form.html">
+                    <span class="icon icon-cog"></span>
+                    <span class="title">Forms</span>
+
+                </a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
 <div class="dashLeftSiderbar">
     <div class="dashLeftSiderbarContent">
 
@@ -38,9 +70,11 @@
     </div>
 
 </div>
+
 <header class="dashHeader">
     <div class="dashHeaderContent">
         <h1 class="font-weight-normal">Gk Admin</h1>
+        <span class="icon icon-bars" id="btnMobile" style="display: none;"></span>
         <div class="dashHeaderNav">
             <ul>
                 <li><a href="#" class="icon icon-bell">(0)</a></li>
@@ -54,7 +88,45 @@
 <main class="main">
     <div class="main-content">
         <div class="item">
-            vhghdghdc
+            <div class="statistics">
+                <div class="card">
+                    <div class="cardHeader">
+                        <p>Saldo</p>
+
+                    </div>
+                    <div class="cardBody">
+                        <p>R$ 60.000,00</p>
+                    </div>
+                </div>  <!--end card-->
+                <div class="card">
+                    <div class="cardHeader">
+                        <p>Visitas</p>
+
+                    </div>
+                    <div class="cardBody">
+                        <p>1.250</p>
+                    </div>
+                </div>  <!--end card-->
+                <div class="card">
+                    <div class="cardHeader">
+                        <p>Usuários</p>
+
+                    </div>
+                    <div class="cardBody">
+                        <p>50</p>
+                    </div>
+                </div>  <!--end card-->
+
+                <div class="card">
+                    <div class="cardHeader">
+                        <p>Categorias</p>
+
+                    </div>
+                    <div class="cardBody">
+                        <p>10</p>
+                    </div>
+                </div>  <!--end card-->
+            </div>
         </div>
 
     </div>

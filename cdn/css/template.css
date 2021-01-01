@@ -50,6 +50,13 @@ input[type=email]{
 body{
     background-color: #eeeeee;
 }
+.mobileNavSess{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: none;
+}
 .dashLeftSiderbar{
     position: fixed;
     width: 15%;
@@ -118,3 +125,53 @@ body{
     padding: 1em 0;
     margin-top: 10px;
 }
+
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(100% / 4);
+    margin: 0 auto;
+}
+.card{
+    background-color: #fafafa;
+    flex-basis: calc(100% / 4);
+    margin: 0 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+
+}
+.card .cardHeader{
+    padding: 1em 0;
+    text-align: center;
+}
+.card .cardBody{
+    padding: 1em 0;
+    text-align: center;
+}
+.card:nth-of-type(1){
+    margin-left: 0;
+}
+.card:nth-of-type(4){
+    margin-right: 0;
+}
+
+/*device width - 750px*/
+@media all and (max-width: 46.875em) {
+
+    .dashLeftSiderbar{
+        display: none;
+    }
+    .dashHeader,
+    .main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .dashHeaderContent h1{
+        display: none;
+    }
+    .dashHeaderContent span{
+        display: block!important;
+        cursor: pointer;
+    }
+}
+
