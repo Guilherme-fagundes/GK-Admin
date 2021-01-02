@@ -50,6 +50,9 @@ input[type=email]{
 body{
     background-color: #eeeeee;
 }
+#btnMobile{
+    display: none!important;
+}
 .mobileNavSess{
     position: fixed;
     width: 100%;
@@ -158,6 +161,9 @@ body{
 /*device width - 750px*/
 @media all and (max-width: 46.875em) {
 
+    #btnMobile{
+        display: block!important;
+    }
     .dashLeftSiderbar{
         display: none;
     }
