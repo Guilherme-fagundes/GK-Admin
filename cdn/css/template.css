@@ -9,6 +9,26 @@
 .font-weight-normal{
     font-weight: normal;
 }
+/*Pagination*/
+.pagination{
+    text-align: right;
+    margin: 1em 0;
+}
+.pagination ul li{
+    display: inline-block;
+}
+.pagination ul li a{
+    padding: 10px 10px;
+    background-color: white;
+    color: #59405c;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: .8em;
+}
+.pagination ul li a.active{
+    background-color: #0778FF;
+    color: white;
+}
 /*buttons*/
 .btn{
     padding: 8px 1em;
@@ -156,6 +176,50 @@ body{
 }
 .card:nth-of-type(4){
     margin-right: 0;
+}
+.listUsers{
+    width: 100%;
+    /*background-color: white;*/
+    overflow-x: auto;
+}
+.tbUsers{
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    background-color: white;
+}
+.tbUsers thead td{
+    text-align: center;
+    padding: 1em 10px;
+    font-size: .8em;
+    font-weight: bold;
+
+
+}
+.tbUsers tbody tr td{
+    text-align: center;
+    padding: .5em 10px;
+    font-size: .8em;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.tbUsers tbody tr td a{
+    text-decoration: none;
+    padding: .3em;
+    vertical-align: middle;
+    text-align: right!important;
+    border-radius: 3px;
+    color: #59405c;
+    margin: 5px 2px;
+    position: relative;
+    float: right;
+;
+
+}
+.tbUsers tbody tr td a:hover{
+    background-color: #fb565e;
+    color: white;
 }
 
 /*device width - 750px*/
