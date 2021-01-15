@@ -11,10 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43e6891-745f-4867-85d4-be44a5920a63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cdn/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/cdn/css/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdn/js/dash.js" beforeDir="false" afterPath="$PROJECT_DIR$/cdn/js/dash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,9 @@
       <workItem from="1609592060459" duration="808000" />
       <workItem from="1609957525256" duration="2168000" />
       <workItem from="1609973593958" duration="787000" />
-      <workItem from="1609980754946" duration="9142000" />
+      <workItem from="1609980754946" duration="9389000" />
+      <workItem from="1610548034438" duration="408000" />
+      <workItem from="1610654841542" duration="8319000" />
     </task>
     <servers />
   </component>
@@ -113,6 +117,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610666803367">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1610666803367" />
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607182734617">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
